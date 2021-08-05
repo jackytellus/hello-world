@@ -1,37 +1,24 @@
 public class ElectricTrainClass extends TrainClass
 {
-    protected int trainType = null;
-    protected String trainName = null;
+    protected int yearBuilt = null;
 
     private ElectricTrainClass()
     {
     }
 
-    public ElectricTrainClass(int theTrainType, String theTrainName)
+    public ElectricTrainClass(int theYearBuilt)
     {
-        this.trainType = theTrainType;
-        this.trainName = theTrainName;
+        this.yearBuilt = theYearBuilt;
     }
 
-    public int getTrainType()
+    public int getYearBuilt()
     {
-        return this.trainType;
+        return this.yearBuilt;
     }
 
-    public String getTrainName()
+    public int setYearBuilt(int theYearBuilt)
     {
-        return this.trainName;
-    }
-
-    public int setTrainType(int theTrainType)
-    {
-        this.trainType = theTrainType;
-        return this.trainType;
-    }
-
-    public String setTrainName(String theTrainName)
-    {
-        this.trainName = theTrainName;
-        return this.trainName;
+        this.yearBuilt = theYearBuilt;
+        return this.yearBuilt;
     }
 }
