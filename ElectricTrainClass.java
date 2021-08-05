@@ -1,13 +1,13 @@
-public class TrainClass
+public class ElectricTrainClass extends TrainClass
 {
     protected int trainType = null;
     protected String trainName = null;
 
-    private TrainClass()
+    private ElectricTrainClass()
     {
     }
 
-    public TrainClass(int theTrainType, String theTrainName)
+    public ElectricTrainClass(int theTrainType, String theTrainName)
     {
         this.trainType = theTrainType;
         this.trainName = theTrainName;
